@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate-Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.satya.hibernate.model.Employee"   table="ep">
+<id name="employeeNumber" column="empno">
+</id>
+<property name="employeeName"   column="ename"></property>
+<property name="employeeSalary"    column="sal"></property>
+<property name="deptNumber"      column="deptno"></property>
+</class>
+</hibernate-mapping>

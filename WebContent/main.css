@@ -1,0 +1,87 @@
+/* Get rid of padding and margin */
+*{
+	margin:0px;
+	padding:0px;
+	/*none of list have bullet point */
+	list-style-type:none;
+}
+header,nav,article,section,footer,aside{
+	display:block;
+	
+}
+/*centering website */
+.container{
+	width:1000px;
+	
+	margin:0px auto;/* top bottom 0 left right auto */
+	border:2px solid black;
+	
+}
+.clear{
+	clear:both;
+}
+
+.logo{
+	height:100px;'
+	width:232px;
+	float:left;
+	
+}
+.top_nav{
+	height:100px;
+	width:768;
+}
+.top_nav ul li{
+	float:left;
+	padding:70px 40px;
+}
+/* Float aside and main section */
+
+.left_side{
+	float:left;
+	width:696px;
+	
+	
+}
+.right_side{
+	float:left;
+	width:286px;
+
+	
+}
+.left_side article{
+	border:2px solid red;
+	margin-right:10px;
+	padding:10px;
+}
+.right_side div{
+    border:2px solid blue;
+	margin-right:0px 0px 10px 0px; /* top left bottom right*/
+	padding:10px
+}
+.page_footer{
+	clear:left;
+	text-align:center;
+	
+	
+}
+
+/*.........................insert.html....................*/
+.personal_info label{
+	float:left;
+	width:100px;
+	
+}
+fieldset{
+	width:400px;
+	hight:400px;
+	margin-right:10px;
+	padding:10px;
+	background-color:#81d4fa;
+	
+}
+fieldset legend{
+	font-weight:bold;
+}
+
+

@@ -1,0 +1,81 @@
+ <html>
+<form action="insertserv">
+<table>
+<tr>
+<td><font face="verdana" size="2px">Emp No:</font></td>
+<td><input type="text" name="empno"></td>
+</tr><tr>
+<td><font face="verdana" size="2px">name:</font></td>
+<td><input type="text" name="ename"></td>
+</tr>
+<tr>
+<td><font face="verdana" size="2px">salary:</font></td>
+<td><input type="text" name="sal"></td>
+</tr><tr>
+<td><font face="verdana" size="2px">dept no:</font></td>
+<td><input type="text" name="deptno"></td>
+</tr>
+</table>
+<input type="submit" value="Register">
+</form>
+</html> 
+
+<!--
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Register</title>
+	  <link rel="stylesheet" href="main.css"/>
+	       <script type="text/javascript">
+		             function check_info(){
+			            var empno = document.getElementById('empno').value;
+			            var ename = document.getElementById('ename').value;
+			            var sal = document.getElementById('sal').value;
+			            var deptno=document.getElementById('deptno').value;
+
+			            if(empno =="" || ename =="" || sal=="" || deptno==""){
+			            alert('please fill all fields');
+			           return false;
+			
+		        	}else{
+			       return true;
+		     	}
+			
+			}
+		
+	        </script>
+		
+		
+   </head>
+   <body>
+        <form action="insertserv"  method="get" onsubmit="return check_info();>
+		    <fieldset class="personal_info">
+			       <legend >Personal info.. </legend>
+				   <p>
+				   <label for ="empno">Emp No:</label>
+				   <input type="text" name="empno" id="empno">
+				   </p>
+				     <p>
+				   <label for ="ename">Name:</label>
+				   <input type="text" name="ename" id="ename">
+				   </p>
+				    <p>
+				   <label for ="sal">Salary:</label>
+				   <input type="text" name="sal" id="sal">
+				   </p>
+				    <p>
+				   <label for ="deptno">Dept No:</label>
+				   <input type="text" name="deptno" id="deptno">
+				   </p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			           <input type="reset" value="Reset">
+			           <input type="submit" value="submit">  
+			           <label id="lblmessage" style="display:none">employe saved</label>    
+		     </fieldset>
+
+		</form>
+	  </body>
+</html>
+
+-->

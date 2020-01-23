@@ -1,0 +1,38 @@
+<!-- <html>
+<form action="deleteserv">
+<table>
+<tr>
+<td><font face="verdana" size="2px">enter employee ID to delete:</font></td>
+<td><input type="text" name="empno"></td>
+</tr>
+</table>
+<input type="submit" value="Delete">
+</form>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title >Delete Employee</title>
+        <script type="text/javascript">
+		      function check_info(){
+		      var empno = document.getElementById('empno').value;
+		      if(empno ==""){
+		      alert('please enter EmpNo ');
+		      return false;
+		
+		      }else{
+		     return true;
+		      }
+		      }
+        </script>
+   </head>
+         <body>
+             <p id="welcome"></p>
+             <form action="deleteserv" onsubmit="return check_info();">
+		     Enter EmpNo<input type="text" name="empno" id="empno"/>
+		    <input type="submit" value="Delete"/>
+    </form>
+  </body>
+</html>
